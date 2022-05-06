@@ -1,0 +1,59 @@
+main .container {
+  margin-top: 150px;
+}
+
+main .container .row {
+  width: 80%;
+  margin-left: 10%;
+}
+
+main .container .row .links {
+  padding: 0;
+  width: 100%;
+}
+
+main .container .row .links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .row .links ul li {
+  list-style: none;
+  text-align: center;
+}
+
+main .container .row .links ul li a {
+  text-decoration: none;
+  color: black;
+  border-radius: 15px 15px 0 0;
+  padding: 20px 80px;
+  background-color: lightgray;
+}
+
+main .container .row .links ul li a:hover {
+  background-color: #11f3ff;
+}
+
+main .container .row .card {
+  width: 94%;
+  margin-left: 5%;
+  border-top: 2px solid #11f3ff;
+}
+
+main .container .row .card img {
+  height: 135px;
+}
+
+main .container .Abouts {
+  position: relative;
+}
+
+main .container .Abouts .card {
+  position: absolute;
+}
+
+main .container .Abouts .card .infos {
+  padding: 30px 5px;
+}
+/*# sourceMappingURL=Main.css.map */
